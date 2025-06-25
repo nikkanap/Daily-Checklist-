@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daily Checklist</title>
+        <link rel="stylesheet" type="text/css" href="DailyChecklist.css">
+    </head>
+    <body>
+        <div id="mainDiv">
+            <div id="headerDiv">
+                <h1><b>DAILY CHECKLIST</b></h1>
+                <p><b>BY NIKKA NAPUTO</b></p>
+            </div>
+
+            <div id="fieldDiv">
+                <h3><b>ADD A TASK</b></h3>
+                <form>
+                    <!--<label for="add-task"><b>Add Task:</b></label>-->
+                    <input type="text" id="add-task" name="add-task" placeholder="Enter a task">
+                    <button type="button" id="submit" onclick="submitTask()"><b>Submit Task</b></button>
+                </form>
+            </div>
+
+            <h2><b>LIST OF ACTIVITIES:</b></h2>
+            <div id="listDiv">
+            </div>
+        </div>
+        
+        <!--Javascript content-->
+        <script src="DailyChecklist.js"></script>
+    </body>
+</html>

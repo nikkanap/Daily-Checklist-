@@ -1,0 +1,118 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: "Arial";
+}
+
+hr{
+    border-color: rgb(138, 21, 58);
+    border-width: 2px;
+}
+
+div{
+    border-radius: 5px;
+}
+
+h1{
+    line-height: 0px;
+    text-align: center;
+    color: rgb(138, 21, 58);
+}
+
+h2{
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-top: 30px;
+    color: rgb(138, 21, 58);
+}
+
+h3{
+    color: white;
+    line-height: 0px;
+    text-align: center;
+}
+
+form{
+    line-height: 0;
+    text-align: center;
+}
+
+p{
+    letter-spacing: 3px;
+    line-height: 10px;
+    text-align: center;
+    color: rgb(195, 195, 195);
+    font-family: "calibri";
+}
+
+label{
+    color: white;
+    font-style: italic;
+    font-family: "calibri";
+    width: 100%;
+    inline-size: 95%;
+    overflow-wrap: break-word;
+}
+
+/*---IDs---*/
+#submit{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+#submit:hover{
+    background-color: rgb(50, 50, 50);
+}
+
+#mainDiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#headerDiv{
+    padding: 10px;
+}
+
+#fieldDiv{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: rgb(153, 14, 67);
+}
+
+#listDiv{
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#item-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-task{
+    width:55%;
+}
+
+#delete-button{
+    font-size: 10px;
+    min-width: 8px;
+    min-height: 8px;
+    background-color: rgb(153, 14, 67);
+    color: white;
+}
+
+#delete-button:hover{
+    background-color: rgb(216, 72, 127);
+}
+
+
