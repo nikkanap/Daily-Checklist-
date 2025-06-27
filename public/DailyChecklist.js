@@ -95,7 +95,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 addTask(line);
             });
         } else if (lines.error){ // lines becomes json
-            alert("server error: " + lines.error);
+            console.error("server error: " + lines.error);
         } else {    // idk random server error repsonse
             alert("Unexpected server response");
         }
